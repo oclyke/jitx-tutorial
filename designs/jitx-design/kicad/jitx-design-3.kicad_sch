@@ -1,0 +1,470 @@
+
+(kicad_sch
+  (version 20230121)
+  (generator jitx)
+  (uuid 62e125b0-a100-8015-75f5-1f8c5648a939)
+  (paper "A4")
+  
+  
+  (lib_symbols 
+
+    (symbol "resistor_sym" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "resistor_sym" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "resistor_sym_1_0"
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 -2.54) (xy 0.0 -1.5875)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -1.5875) (xy -0.762 -1.27) (xy 0.762 -0.635) (xy -0.762 0.0) (xy 0.762 0.635) (xy -0.762 1.27) (xy 0.0 1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 1.5875) (xy 0.0 2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "box_symbol_1L_1R_0T_1B" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -6.35 7.712 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "box_symbol_1L_1R_0T_1B" (id 1) (at -6.35 6.65 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "box_symbol_1L_1R_0T_1B_1_0"
+
+      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
+        (name "L0" (effects (font (size 0.762 0.762))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
+        (name "R0" (effects (font (size 0.762 0.762))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -8.89 90) (length 2.54)
+        (name "B0" (effects (font (size 0.762 0.762))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (rectangle (start -6.35 -6.35) (end 6.35 6.35) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "capacitor_sym" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "capacitor_sym" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "capacitor_sym_1_0"
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "~" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 2.54) (xy 0.0 0.508)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "generic_symbol" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -2.54 3.902 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "generic_symbol" (id 1) (at -2.54 2.84 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "generic_symbol_1_0"
+      (rectangle (start -2.54 -2.54) (end 2.54 2.54) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "component" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "U" (id 0) (at -6.35 7.712 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "component" (id 1) (at -6.35 6.65 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "component_1_0"
+
+      (pin unspecified line (at -8.89 0.0 0) (length 2.54)
+        (name "input" (effects (font (size 0.762 0.762))))
+        (number "3" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 8.89 0.0 180) (length 2.54)
+        (name "output" (effects (font (size 0.762 0.762))))
+        (number "4" (effects (font (size 0.762 0.762))))
+      )
+
+      (pin unspecified line (at 0.0 -8.89 90) (length 2.54)
+        (name "adj" (effects (font (size 0.762 0.762))))
+        (number "1" (effects (font (size 0.762 0.762))))
+      )
+      (rectangle (start -6.35 -6.35) (end 6.35 6.35) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "my_capacitor" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "C" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "my_capacitor" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "my_capacitor_1_0"
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "2" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 2.54) (xy 0.0 0.508)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "my_resistor" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "R" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "my_resistor" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "my_resistor_1_0"
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "2" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 -2.54) (xy 0.0 -1.5875)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -1.5875) (xy -0.762 -1.27) (xy 0.762 -0.635) (xy -0.762 0.0) (xy 0.762 0.635) (xy -0.762 1.27) (xy 0.0 1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 1.5875) (xy 0.0 2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "my_capacitor_1" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "C" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "my_capacitor_1" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "my_capacitor_1_1_0"
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "2" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 2.54) (xy 0.0 0.508)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 0.508) (xy 1.27 0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -0.508) (xy 0.0 -2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy -1.27 -0.508) (xy 1.27 -0.508)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "my_resistor_1" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "R" (id 0) (at 1.27 1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      
+      (property "Value" "my_resistor_1" (id 1) (at 1.27 -1.27 0.0)
+        (effects (font (size 0.28224 0.28224))  (justify left )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "my_resistor_1_1_0"
+
+      (pin unspecified line (at 0.0 -2.54 90) (length 0.0)
+        (name "1" (effects (font (size 0.0 0.0))))
+        (number "1" (effects (font (size 0.0 0.0))))
+      )
+
+      (pin unspecified line (at 0.0 2.54 270) (length 0.0)
+        (name "2" (effects (font (size 0.0 0.0))))
+        (number "2" (effects (font (size 0.0 0.0))))
+      )
+      (polyline (pts (xy 0.0 -2.54) (xy 0.0 -1.5875)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 -1.5875) (xy -0.762 -1.27) (xy 0.762 -0.635) (xy -0.762 0.0) (xy 0.762 0.635) (xy -0.762 1.27) (xy 0.0 1.5875)) (stroke (width 0.254) (type solid) (color 0 0 0 0)) (fill (type background)))
+      (polyline (pts (xy 0.0 1.5875) (xy 0.0 2.54)) (stroke (width 0.127) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+
+    (symbol "Version_0_0" 
+      (in_bom yes) (on_board yes)
+      
+      (property "Reference" "TXT" (id 0) (at -2.54 3.902 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      
+      (property "Value" "Version_0_0" (id 1) (at -2.54 2.84 0.0)
+        (effects (font (size 0.3048 0.3048))  (justify left bottom )))
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 0.635 0.635)) hide))
+      
+(symbol "Version_0_0_1_0"
+      (rectangle (start -2.54 -2.54) (end 2.54 2.54) (stroke (width 0.0) (type solid) (color 0 0 0 0)) (fill (type background)))
+)
+    )
+  )
+  (wire (pts (xy 144.78 67.31) (xy 168.91 67.31)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3f3077af-10d3-3f45-69f8-5a4ec4a3f964))
+  (wire (pts (xy 168.91 92.71) (xy 168.91 67.31)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 769e5753-ecff-ff7d-9bbd-16372ff6c879))
+  (wire (pts (xy 144.78 68.58) (xy 144.78 67.31)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 7821f7a4-2252-574c-ca60-454d6810d138))
+  (wire (pts (xy 158.75 113.03) (xy 168.91 113.03)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid eaa54a66-2ef3-f9f9-2de2-c2b1b388013e))
+  (wire (pts (xy 154.94 71.12) (xy 158.75 71.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 27564917-eb46-5190-1aa0-82aeb524e22f))
+  (wire (pts (xy 168.91 113.03) (xy 168.91 111.76)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 32b7c463-5369-230f-eac9-c2e9c843f497))
+  (wire (pts (xy 158.75 113.03) (xy 158.75 71.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 53811e8e-94da-3f94-4f74-68543406f5d1))
+  (wire (pts (xy 154.94 88.9) (xy 160.02 88.9)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 0028a3d3-dc29-2665-6960-d1081c2e160f))
+  (wire (pts (xy 160.02 101.6) (xy 165.1 101.6)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 946bb78e-67e3-a6d8-7389-fdd1affa711a))
+  (wire (pts (xy 160.02 101.6) (xy 160.02 88.9)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2b82050b-3d81-13a1-2b08-cbb7a2459793))
+  (wire (pts (xy 130.81 100.33) (xy 130.81 97.79)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dc2b5ec4-2ac5-053c-1694-b7f273fbb947))
+  (wire (pts (xy 130.81 100.33) (xy 138.43 100.33)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d7441fd9-ed4a-242a-26d5-ffd378bc50a1))
+  (wire (pts (xy 144.78 100.33) (xy 144.78 68.58)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid abc48612-1ac1-03ab-6184-955945243d23))
+  (wire (pts (xy 143.51 100.33) (xy 146.05 100.33)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fbc91465-1531-c176-c792-61d6b349ddfe))
+  (wire (pts (xy 130.81 80.01) (xy 130.81 71.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 4bb72a17-ee1b-95d1-05c0-359aef2aa898))
+  (wire (pts (xy 130.81 71.12) (xy 154.94 71.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid fed82206-8221-53f2-4dfb-c3d65e3bc691))
+  (wire (pts (xy 152.4 100.33) (xy 152.4 71.12)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid dcecd43d-0418-307d-0311-0e3522554b38))
+  (wire (pts (xy 151.13 100.33) (xy 152.4 100.33)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid a387c7ab-4203-205b-992b-8c7d252cf306))
+  (wire (pts (xy 139.7 88.9) (xy 154.94 88.9)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid d9011996-4958-b524-d437-da4fa7815390))
+  (wire (pts (xy 168.91 95.25) (xy 168.91 92.71)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 2445749e-755f-c3f1-38cd-f490e0dff169))
+  (wire (pts (xy 168.91 111.76) (xy 168.91 109.22)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid 3f4aa8e9-a9e1-36e0-18d6-c64ae270bf14))
+  (wire (pts (xy 165.1 101.6) (xy 168.91 101.6)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid e80c286b-57d7-f0e5-6295-c25ff68b9f90))
+  (wire (pts (xy 168.91 104.14) (xy 168.91 100.33)) (stroke (width 0.127) (type default) (color 0 0 0 0)) (uuid ba897d8e-c2b8-1828-bf75-3123d117c394))
+  (polyline (pts (xy 119.38 64.77) (xy 175.26 64.77)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 84b227a1-5103-f0b3-1f0a-fce4e1896a29))
+  (polyline (pts (xy 119.38 115.57) (xy 175.26 115.57)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid e686d370-03a4-46a1-c993-2f5013a1562c))
+  (polyline (pts (xy 119.38 115.57) (xy 119.38 64.77)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 3d8d80ea-4324-1bab-ab0b-11bfed455210))
+  (polyline (pts (xy 175.26 115.57) (xy 175.26 64.77)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 0ed75bab-49b6-8b80-4585-9da0e89684e5))
+  (polyline (pts (xy 121.92 68.58) (xy 154.94 68.58)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 75a2b228-0e50-0e47-b01b-edd69816a69c))
+  (polyline (pts (xy 121.92 104.14) (xy 154.94 104.14)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 8da97ea9-6761-170a-232c-2979f96bde1b))
+  (polyline (pts (xy 121.92 104.14) (xy 121.92 68.58)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid ac23cde2-9bce-36d1-b9a7-a258fa4edd02))
+  (polyline (pts (xy 154.94 104.14) (xy 154.94 68.58)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid a41186df-5944-7854-7f00-47a614acc130))
+  (polyline (pts (xy 165.1 92.71) (xy 172.72 92.71)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 2c2366e1-2ec8-d4cb-63c1-31f076ea1e3b))
+  (polyline (pts (xy 165.1 111.76) (xy 172.72 111.76)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid ee57f4ff-c79b-51ad-c9cf-1a76e4e1906e))
+  (polyline (pts (xy 165.1 111.76) (xy 165.1 92.71)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 37a79177-d3c8-f702-8602-b58b900e00fb))
+  (polyline (pts (xy 172.72 111.76) (xy 172.72 92.71)) (stroke (width 0.127) (type dot) (color 0 0 0 0)) (uuid 2b7c7bdd-d60d-bcde-9fb0-2e8d8afae1de))
+(junction (at 144.78 100.33) (diameter 0.762) (color 0 0 0 0 ) (uuid 9f14226e-bee3-5144-dcec-31a1baf1b04f))
+(junction (at 152.4 71.12) (diameter 0.762) (color 0 0 0 0 ) (uuid c43cdffa-fe6e-b177-5b77-d87822296539))
+(junction (at 168.91 101.6) (diameter 0.762) (color 0 0 0 0 ) (uuid 935f5794-0c22-91be-1457-382ff89cdef5))
+
+  (label "reg" (at 119.38 64.77 0)
+    (effects (font (size 0.762 0.762)) (justify left bottom ))
+    (uuid 644476e5-0971-9107-e47c-b65e6328ec43)
+  )
+
+  (label "reg_lm317a-regulator" (at 121.92 68.58 0)
+    (effects (font (size 0.762 0.762)) (justify left bottom ))
+    (uuid 6b739fad-76c3-8a0d-5d32-f409b3b191a5)
+  )
+
+  (label "reg_output-voltage-divider_voltage-divider" (at 165.1 92.71 0)
+    (effects (font (size 0.762 0.762)) (justify left bottom ))
+    (uuid 070aed4b-dc83-8c34-50c6-279c56a0a7b0)
+  )
+
+  (symbol (lib_id "my_capacitor_1") (at 140.97 100.33 90.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid 60a55d3e-eb92-c3db-75bf-2f14005ccd82)
+    (property "Reference" "C1" (id 0) (at 139.7 101.6 270.0) (effects (font (size 0.762 0.762)) (justify right )))
+    (property "Value" "100n" (id 1) (at 142.24 101.6 270.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "jitx-design:Pkg0402_1" (id 2) (at 140.97 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202040300_KEMET-C0402C104Z4VAC7867_C2168399.pdf" (id 3) (at 140.97 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "reg_cap" (id 4) (at 140.97 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "16V 100nF Y5V -20%~+80% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (id 5) (at 140.97 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "YAGEO" (id 6) (at 140.97 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "C0402C104Z4VACTU" (id 7) (at 140.97 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Reference-prefix" "C" (id 8) (at 140.97 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid ec9dd610-f2f7-a817-d7da-8a28ed873305))
+    (pin "2" (uuid e92e286b-1846-75d0-bddd-44c6ef0bd41e))
+    (instances
+      (project "jitx-design"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "my_capacitor") (at 148.59 100.33 270.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid 6270d4ff-f9ac-092e-3cf4-8ab8e1d98d06)
+    (property "Reference" "C2" (id 0) (at 147.32 99.06 90.0) (effects (font (size 0.762 0.762)) (justify right )))
+    (property "Value" "1u" (id 1) (at 149.86 99.06 90.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "jitx-design:Pkg0402_1" (id 2) (at 148.59 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "" (id 3) (at 148.59 100.33 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "reg_cap" (id 4) (at 148.59 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "" (id 5) (at 148.59 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "Murata" (id 6) (at 148.59 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "GRT155R61E105ME01D" (id 7) (at 148.59 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Reference-prefix" "C" (id 8) (at 148.59 100.33 270.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid 542ae4d4-1cdc-74ca-94b9-4ec043e25773))
+    (pin "2" (uuid 5a316fca-12eb-2f35-13b4-f78da20202a5))
+    (instances
+      (project "jitx-design"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "my_resistor") (at 168.91 106.68 0.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid 31b347d8-a106-ce3a-a3a2-ea9c49315e1e)
+    (property "Reference" "R2" (id 0) (at 170.18 105.41 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Value" "442R" (id 1) (at 170.18 107.95 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "jitx-design:Pkg0402" (id 2) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202012030_Vishay-Intertech-CRCW0402442RFKED_C2079888.pdf" (id 3) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "reg_output-voltage-divider_r-hi" (id 4) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 442Ω 0402  Chip Resistor - Surface Mount ROHS" (id 5) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "Vishay" (id 6) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "CRCW0402442RFKED" (id 7) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Reference-prefix" "R" (id 8) (at 168.91 106.68 0.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid 94595696-c4f9-0961-3b77-8ae5a0faac45))
+    (pin "2" (uuid 4602ee9b-adc5-3b8b-2ead-f51464ec05d2))
+    (instances
+      (project "jitx-design"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "component") (at 130.81 88.9 90.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid 5de36a13-56ae-1333-2d4c-a70a9f0837c6)
+    (property "Reference" "U1" (id 0) (at 137.46 82.55 270.0) (effects (font (size 0.762 0.762)) (justify right )))
+    (property "Value" "LM317AG-TN3-R" (id 1) (at 138.522 82.55 270.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "jitx-design:C75510_LP" (id 2) (at 130.81 88.9 270.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810271112_UTC-Unisonic-Tech-LM317AG-TN3-R_C75510.pdf" (id 3) (at 130.81 88.9 270.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "reg_lm317a" (id 4) (at 130.81 88.9 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "1.5A 5V@(500mA) Adjustable 1.2V~37V Positive 1 40V TO-252-2(DPAK) Linear Voltage Regulators (LDO) ROHS" (id 5) (at 130.81 88.9 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "UTC(Unisonic Tech)" (id 6) (at 130.81 88.9 90.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "LM317AG-TN3-R" (id 7) (at 130.81 88.9 90.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "input" (uuid da197434-444f-4e70-9c26-2734578f4586))
+    (pin "output" (uuid 7c744de1-e0d9-842c-bf17-6bc37e39e76b))
+    (pin "adj" (uuid b93b9119-be8a-52ea-84e4-879c39878e6c))
+    (instances
+      (project "jitx-design"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "my_resistor_1") (at 168.91 97.79 0.0)  (unit 1)
+    (in_bom yes) (on_board yes) 
+    (uuid 616ee677-1649-3455-e105-aff1582c1c0f)
+    (property "Reference" "R3" (id 0) (at 170.18 96.52 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Value" "270R" (id 1) (at 170.18 99.06 0.0) (effects (font (size 0.762 0.762)) (justify left )))
+    (property "Footprint" "jitx-design:Pkg0402" (id 2) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+    (property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" (id 3) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Name" "reg_output-voltage-divider_r-lo" (id 4) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Description" "RES 270 OHM 1% 1/16W 0402" (id 5) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Manufacturer" "SEI" (id 6) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "MPN" "RMCF0402FT270R" (id 7) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+      (property "Reference-prefix" "R" (id 8) (at 168.91 97.79 0.0) (effects (font (size 0.762 0.762)) hide))
+    
+    (pin "1" (uuid 1c112ab4-ea79-3f0c-600d-ad767cb2c14b))
+    (pin "2" (uuid 684da84c-cd24-fd6b-0944-776ece9ba5f6))
+    (instances
+      (project "jitx-design"
+        (path "/219df102-d28d-b743-245e-efc9439ef913"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+  
+)

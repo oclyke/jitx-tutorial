@@ -1,0 +1,7 @@
+Status	Description	References	Datasheet	Manufacturer	Part Number	Vendor	Quantity	Price	Cost	Preferred
+Auto Selected		C2	 	Murata	GRT155R61E105ME01D	Mouser	1.0	0.11	0.11	 
+Auto Selected	62.5mW Thick Film Resistors 50V ±1% ±100ppm/℃ -55℃~+155℃ 442Ω 0402  Chip Resistor - Surface Mount ROHS	R2	http://datasheet.octopart.com/CRCW0402442RFKED-Vishay-datasheet-83961561.pdf	Vishay	CRCW0402442RFKED	Mouser	1.0	0.1	0.1	 
+Auto Selected	RES 270 OHM 1% 1/16W 0402	R3	http://datasheet.octopart.com/RMCF0402FT270R-Stackpole-Electronics-datasheet-141193804.pdf	Stackpole Electronics	RMCF0402FT270R	Arrow Electronics	1.0	0.0221	0.0221	 
+No Vendor Stock	Version 0.0	TXT1	 	non-BOM	Version 0.0	 	1.0	0.0	0.0	 
+No Vendor Stock	16V 100nF Y5V -20%~+80% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS	C1	https://datasheet.lcsc.com/lcsc/2202040300_KEMET-C0402C104Z4VAC7867_C2168399.pdf	YAGEO	C0402C104Z4VACTU	 	1.0	0.0	0.0	 
+No Vendor Stock	1.5A 5V@(500mA) Adjustable 1.2V~37V Positive 1 40V TO-252-2(DPAK) Linear Voltage Regulators (LDO) ROHS	U1	https://datasheet.lcsc.com/lcsc/1810271112_UTC-Unisonic-Tech-LM317AG-TN3-R_C75510.pdf	UTC(Unisonic Tech)	LM317AG-TN3-R	 	1.0	0.0	0.0	 
